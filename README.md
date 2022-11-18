@@ -5,3 +5,7 @@ The Lightsaber [Antimatter] is the third prototype of my special-fx lightsaber d
 The saber consists of two circuit boards, one with an esp-32 that controls leds that run the length of the blade, gathers readings from a gyroscope, manages a single cell battery, communicates with an iphone via bluetooth, and gathers readings from 4 VL53L5CX ToF sensors located on the second circuit board. These ToF sensors are used to detect if and where the lightsaber is hit along the blade, allowing the ability for the lightsaber to flash at a particular spot along the blade, bringing greater interactivity to it's environment and reducing the vfx needed in film production.
 
 The hilt is a custom design, gathering inspiration from the starkiller lightsaber hilt.
+
+The VL53L5CX_ULD_API_driver is a library I have modified to work witht the arduino library file system. Schematics for the PCBS are found in the schematics folder as well as the circuitboards folder and their fabrication files are found in the PCBA file. The DocsAndDiagrams folder is a simplified block diagram of the main circuit board, though it is outdated. The main code of the board and iphone are found in Code/StableSoftware.
+
+
