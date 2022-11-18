@@ -1,4 +1,4 @@
-# Lightsaber-Antimatter
+# LightsaberAntimatter
 
 The LightsaberAntimatter is the third prototype of my special-fx lightsaber design.
 
