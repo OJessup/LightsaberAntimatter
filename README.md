@@ -6,6 +6,6 @@ The saber consists of two circuit boards, one with an esp-32 that controls leds 
 
 The hilt is a custom design, gathering inspiration from the starkiller lightsaber hilt.
 
-The VL53L5CX_ULD_API_driver is a library I have modified to work witht the arduino library file system. Schematics for the PCBS are found in the schematics folder as well as the circuitboards folder and their fabrication files are found in the PCBA file. The DocsAndDiagrams folder is a simplified block diagram of the main circuit board, though it is outdated. The main code of the board and iphone are found in Code/StableSoftware. The .step files and technical drawings for the components of the lightsaber can be found in the CAD file.
+The VL53L5CX_ULD_API_driver is a library I have modified to work with the arduino library file system. Schematics for the PCBS are found in the schematics folder as well as the circuitboards folder and their fabrication files are found in the PCBA file. The DocsAndDiagrams folder is a simplified block diagram of the main circuit board, though it is outdated. The main code of the board and iphone are found in Code/StableSoftware. The .step files and technical drawings for the components of the lightsaber can be found in the CAD file.
 
 
