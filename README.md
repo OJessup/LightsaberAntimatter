@@ -8,4 +8,4 @@ The hilt is a custom design, gathering inspiration from the starkiller lightsabe
 
 Schematics for the PCBS are found in the schematics folder as well as the circuitboards folder and their fabrication files are found in the PCBA file. The DocsAndDiagrams folder is a simplified block diagram of the main circuit board, though it is outdated. The main code of the board and iphone are found in Code/StableSoftware. The .step files and technical drawings for the components of the lightsaber can be found in the CAD file.
 
-![IMG_3598](https://user-images.githubusercontent.com/111181016/228497854-ef3d886b-d0a6-4b71-9624-ed71e76e2068.jpg)
+![IMG_3598](https://user-images.githubusercontent.com/111181016/228498272-235ea79d-b993-4c56-80ac-038d7aff3936.jpg)
