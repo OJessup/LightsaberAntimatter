@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B3D07529D685D600BE49C9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3D07429D685D600BE49C9 /* Settings.swift */; };
+		A7B3D07729D68EF700BE49C9 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3D07629D68EF700BE49C9 /* BluetoothManager.swift */; };
+		A7B4FE9529D5BA1A00FF8DBE /* LSCC_v6_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4FE9429D5BA1A00FF8DBE /* LSCC_v6_0App.swift */; };
+		A7B4FE9729D5BA1A00FF8DBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4FE9629D5BA1A00FF8DBE /* ContentView.swift */; };
+		A7B4FE9929D5BA1A00FF8DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B4FE9829D5BA1A00FF8DBE /* Assets.xcassets */; };
+		A7B4FE9C29D5BA1A00FF8DBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B4FE9B29D5BA1A00FF8DBE /* Preview Assets.xcassets */; };
+		A7B4FEA329D5C4BD00FF8DBE /* ColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4FEA229D5C4BD00FF8DBE /* ColourWheel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7B3D07329D6669500BE49C9 /* LSCC-v6-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LSCC-v6-0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A7B3D07429D685D600BE49C9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A7B3D07629D68EF700BE49C9 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		A7B4FE9129D5BA1A00FF8DBE /* LSCC v6.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LSCC v6.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B4FE9429D5BA1A00FF8DBE /* LSCC_v6_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSCC_v6_0App.swift; sourceTree = "<group>"; };
+		A7B4FE9629D5BA1A00FF8DBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7B4FE9829D5BA1A00FF8DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7B4FE9B29D5BA1A00FF8DBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7B4FEA229D5C4BD00FF8DBE /* ColourWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourWheel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B4FE8E29D5BA1A00FF8DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B4FE8829D5BA1A00FF8DBE = {
+			isa = PBXGroup;
+			children = (
+				A7B4FE9329D5BA1A00FF8DBE /* LSCC v6.0 */,
+				A7B4FE9229D5BA1A00FF8DBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B4FE9229D5BA1A00FF8DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B4FE9129D5BA1A00FF8DBE /* LSCC v6.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B4FE9329D5BA1A00FF8DBE /* LSCC v6.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A7B3D07329D6669500BE49C9 /* LSCC-v6-0-Info.plist */,
+				A7B4FE9429D5BA1A00FF8DBE /* LSCC_v6_0App.swift */,
+				A7B4FE9629D5BA1A00FF8DBE /* ContentView.swift */,
+				A7B3D07429D685D600BE49C9 /* Settings.swift */,
+				A7B4FEA229D5C4BD00FF8DBE /* ColourWheel.swift */,
+				A7B3D07629D68EF700BE49C9 /* BluetoothManager.swift */,
+				A7B4FE9829D5BA1A00FF8DBE /* Assets.xcassets */,
+				A7B4FE9A29D5BA1A00FF8DBE /* Preview Content */,
+			);
+			path = "LSCC v6.0";
+			sourceTree = "<group>";
+		};
+		A7B4FE9A29D5BA1A00FF8DBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7B4FE9B29D5BA1A00FF8DBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B4FE9029D5BA1A00FF8DBE /* LSCC v6.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B4FE9F29D5BA1A00FF8DBE /* Build configuration list for PBXNativeTarget "LSCC v6.0" */;
+			buildPhases = (
+				A7B4FE8D29D5BA1A00FF8DBE /* Sources */,
+				A7B4FE8E29D5BA1A00FF8DBE /* Frameworks */,
+				A7B4FE8F29D5BA1A00FF8DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LSCC v6.0";
+			productName = "LSCC v6.0";
+			productReference = A7B4FE9129D5BA1A00FF8DBE /* LSCC v6.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B4FE8929D5BA1A00FF8DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A7B4FE9029D5BA1A00FF8DBE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A7B4FE8C29D5BA1A00FF8DBE /* Build configuration list for PBXProject "LSCC v6.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B4FE8829D5BA1A00FF8DBE;
+			productRefGroup = A7B4FE9229D5BA1A00FF8DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B4FE9029D5BA1A00FF8DBE /* LSCC v6.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B4FE8F29D5BA1A00FF8DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B4FE9C29D5BA1A00FF8DBE /* Preview Assets.xcassets in Resources */,
+				A7B4FE9929D5BA1A00FF8DBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B4FE8D29D5BA1A00FF8DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B4FEA329D5C4BD00FF8DBE /* ColourWheel.swift in Sources */,
+				A7B4FE9729D5BA1A00FF8DBE /* ContentView.swift in Sources */,
+				A7B3D07529D685D600BE49C9 /* Settings.swift in Sources */,
+				A7B4FE9529D5BA1A00FF8DBE /* LSCC_v6_0App.swift in Sources */,
+				A7B3D07729D68EF700BE49C9 /* BluetoothManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7B4FE9D29D5BA1A00FF8DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7B4FE9E29D5BA1A00FF8DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B4FEA029D5BA1A00FF8DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LSCC v6.0/Preview Content\"";
+				DEVELOPMENT_TEAM = B44RA2D9TW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LSCC-v6-0-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LSCC.LSCC-v6-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7B4FEA129D5BA1A00FF8DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LSCC v6.0/Preview Content\"";
+				DEVELOPMENT_TEAM = B44RA2D9TW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LSCC-v6-0-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LSCC.LSCC-v6-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B4FE8C29D5BA1A00FF8DBE /* Build configuration list for PBXProject "LSCC v6.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B4FE9D29D5BA1A00FF8DBE /* Debug */,
+				A7B4FE9E29D5BA1A00FF8DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B4FE9F29D5BA1A00FF8DBE /* Build configuration list for PBXNativeTarget "LSCC v6.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B4FEA029D5BA1A00FF8DBE /* Debug */,
+				A7B4FEA129D5BA1A00FF8DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B4FE8929D5BA1A00FF8DBE /* Project object */;
+}
